@@ -1,20 +1,22 @@
 body{
-    background-color: yellow;
-    color: blue;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-section{
-    background-color: green;
+    background-image: url("https://i.stack.imgur.com/pMAiU.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: 100%;
+    background-color: rgb(99, 99, 99);
+    /* background-color: rgb(21, 52, 70); */
+    color: rgb(228, 228, 228);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav{
     display: flex;
     justify-content: space-evenly;
-    background-color: black;
+    background-color: rgb(32, 32, 32);
 }
 
 nav > a{
 
+    border-radius: 20px;
     background-color: red;
     color: white;
     padding: 10;
@@ -24,12 +26,14 @@ nav > a{
 
 .headingOne{
     text-align: center;
-    background-color: green;
+    background-color: rgb(255, 0, 0);
+    color: white;
     padding: 10;
 }
 
 .image{
     width: 300;
+    height: 200;
    
 }
 #homeImage{
@@ -39,7 +43,7 @@ nav > a{
 }
 
 .flex{
-    background-color: green;
+    background-color: rgb(43, 43, 43);
     display: flex;
     flex-wrap: wrap;
     margin-left: 5%;
@@ -57,12 +61,28 @@ section > p{
    
 }
 
+.portfolioHead{
+   
+    background-color: rgb(145, 145, 145);
+    padding: 10;
+    width: 150;
+    height: 30;
+    text-align: center;
+    margin-left: 20%;
+   
+}
+
+#projectTwo{
+    padding: 0;
+}
+
 #aboutFooter{
     color: red;
     background-color: black;
     vertical-align: bottom;
     padding-left: 10;
     padding-right: 10;
+    margin-top: 100;
     
  
     
