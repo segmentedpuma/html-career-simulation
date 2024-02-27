@@ -3,6 +3,9 @@ body{
     color: blue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+section{
+    background-color: green;
+}
 
 nav{
     display: flex;
@@ -33,9 +36,27 @@ nav > a{
 .flex{
     background-color: green;
     display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .currentTab{
     pointer-events: none;
     color: purple;
+}
+
+section > p{
+    width: 50%;
+    padding-left: 10%;
+   
+}
+
+#aboutFooter{
+    color: red;
+    background-color: black;
+    vertical-align: bottom;
+    padding-left: 10;
+    padding-right: 10; 
+    
 }
